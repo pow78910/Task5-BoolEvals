@@ -1,0 +1,15 @@
+C:\Users\powellj\Documents\VsCodeProjects\Task5-BoolEvals\bin\Debug\net10.0\Task5-BoolEvals.exe
+C:\Users\powellj\Documents\VsCodeProjects\Task5-BoolEvals\bin\Debug\net10.0\Task5-BoolEvals.deps.json
+C:\Users\powellj\Documents\VsCodeProjects\Task5-BoolEvals\bin\Debug\net10.0\Task5-BoolEvals.runtimeconfig.json
+C:\Users\powellj\Documents\VsCodeProjects\Task5-BoolEvals\bin\Debug\net10.0\Task5-BoolEvals.dll
+C:\Users\powellj\Documents\VsCodeProjects\Task5-BoolEvals\bin\Debug\net10.0\Task5-BoolEvals.pdb
+C:\Users\powellj\Documents\VsCodeProjects\Task5-BoolEvals\obj\Debug\net10.0\Task5-BoolEvals.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\powellj\Documents\VsCodeProjects\Task5-BoolEvals\obj\Debug\net10.0\Task5-BoolEvals.AssemblyInfoInputs.cache
+C:\Users\powellj\Documents\VsCodeProjects\Task5-BoolEvals\obj\Debug\net10.0\Task5-BoolEvals.AssemblyInfo.cs
+C:\Users\powellj\Documents\VsCodeProjects\Task5-BoolEvals\obj\Debug\net10.0\Task5-BoolEvals.csproj.CoreCompileInputs.cache
+C:\Users\powellj\Documents\VsCodeProjects\Task5-BoolEvals\obj\Debug\net10.0\Task5-BoolEvals.sourcelink.json
+C:\Users\powellj\Documents\VsCodeProjects\Task5-BoolEvals\obj\Debug\net10.0\Task5-BoolEvals.dll
+C:\Users\powellj\Documents\VsCodeProjects\Task5-BoolEvals\obj\Debug\net10.0\refint\Task5-BoolEvals.dll
+C:\Users\powellj\Documents\VsCodeProjects\Task5-BoolEvals\obj\Debug\net10.0\Task5-BoolEvals.pdb
+C:\Users\powellj\Documents\VsCodeProjects\Task5-BoolEvals\obj\Debug\net10.0\Task5-BoolEvals.genruntimeconfig.cache
+C:\Users\powellj\Documents\VsCodeProjects\Task5-BoolEvals\obj\Debug\net10.0\ref\Task5-BoolEvals.dll
