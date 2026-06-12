@@ -3,41 +3,46 @@ using System.Security.Cryptography.X509Certificates;
 using System.Transactions;
 using System.Xml;
 
+
 namespace BoolsEvaluating
 {
     class Program()
     {
 
-       public static string coinFace = ""; 
-        public static int coinFlip;
-        static void Main(string[] args)
+       
+        public static void Main(string[] args)
         {
-            while(true)
-            {
-            coinFlip = CoinFlip();
-            coinFace = CoinFace(coinFlip);
-            Output(coinFace);
-            Console.ReadKey();
-            }
-               
-        }
-    
-        public static int CoinFlip()
-        {
-                Random coinFlipRand = new Random();
-                coinFlip = coinFlipRand.Next(2);
-                return coinFlip;
-                
-        }
-        public static string CoinFace(int coinFlip)
-        {
-            coinFace = coinFlip == 0 ? "Heads" : "Tails";
-            return coinFace;
+            Start();
         }
 
-        public static void Output(string output)
+        public static void Start()
         {
-            Console.WriteLine(output);
+            Console.WriteLine("Pick an option");
+            Console.WriteLine("1. Coin flip");
+            Console.WriteLine("2.Admin/Manager Authentication Check");
+
+            ConsoleKeyInfo input = Console.ReadKey(true);
+
+
+            while (true)
+            {
+                switch(input.KeyChar)
+                {
+                    case '1':
+                        CoinClass.CoinMeth();
+                    break;
+                    case '2':
+                        AdminTask.Start();
+                    break;
+                            
+                    
+                }
+                        
+                        
+            }
         }
     }
+    
+
+ 
 }
