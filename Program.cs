@@ -35,7 +35,7 @@ namespace BoolsEvaluating
                     case '1': CoinClass.CoinMeth(); Console.ReadKey(); break;
                     case '2':AdminTask.Start(); Console.ReadKey(); break;
                     case '3': CodeBlocksVarScopes.Start(); Console.ReadKey(); break;
-                    case '4': SwitchCase.Start(); Console.ReadKey(); break;
+                    case '4': SwitchCases.Start(); Console.ReadKey(); break;
                 }
                         
                         
