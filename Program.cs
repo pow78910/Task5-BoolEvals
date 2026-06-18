@@ -20,6 +20,7 @@ namespace BoolsEvaluating
             Console.WriteLine("Pick an option");
             Console.WriteLine("1. Coin flip");
             Console.WriteLine("2.Admin/Manager Authentication Check");
+            Console.WriteLine("3. Code blocks and variable scope");
 
             ConsoleKeyInfo input = Console.ReadKey(true);
 
@@ -33,6 +34,9 @@ namespace BoolsEvaluating
                     break;
                     case '2':
                         AdminTask.Start();
+                    break;
+                    case '3':
+                        CodeBlockVarScopes.Start();
                     break;
                             
                     

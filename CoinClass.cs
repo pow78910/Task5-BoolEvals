@@ -1,9 +1,10 @@
-   using System;
+using System;
 using BoolsEvaluating;
 
 
 public class CoinClass()
 {
+
         public static string coinFace = ""; 
         public static int coinFlip;
     public static void CoinMeth()
