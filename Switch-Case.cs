@@ -37,7 +37,7 @@ class SwitchCases()
             default: size = "One size fits all"; break; 
         }
 
-        Console.WriteLine("sku");
+        Console.WriteLine(sku);
         Console.WriteLine($"Product: {size} {color} {type}");
             }
 }
