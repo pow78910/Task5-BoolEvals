@@ -17,16 +17,16 @@ public class AdminTask()
     {
         Console.Clear();
         Console.WriteLine("Please enter your role(Admin/Manager/Prod)");
-        input = Console.ReadLine();
+        input = Console.ReadLine().ToLower();
 
-        while(!(input.Contains("admin")|| input.Contains("manager") || input.Contains("prod")))
+        while(!(input.Contains("admin")|| input.Contains("manager") || input.Contains("prod") || input == "x"))
         {
              Console.WriteLine("Invalid Input, try again");
             input = Console.ReadLine();
 
         }
 
-        permission = input.Contains("Admin") ? "Admin" : "Manager/Prod"; 
+        permission = input.Contains("admin") ? "Admin" : "Manager/Prod"; 
 
         Console.WriteLine("Enter you permission Level (0-100)");
          input = Console.ReadLine();
@@ -38,6 +38,7 @@ public class AdminTask()
         }
 
         Authentication();     
+        Console.ReadKey();
         
     }
 

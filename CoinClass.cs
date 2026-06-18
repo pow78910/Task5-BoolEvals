@@ -30,6 +30,7 @@ public class CoinClass()
                         Program.Start();
                     break;
                     default:
+                        Console.WriteLine();
                     break;
                         
                         
