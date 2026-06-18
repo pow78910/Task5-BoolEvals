@@ -20,7 +20,7 @@ namespace BoolsEvaluating
             Console.WriteLine("Pick an option");
             Console.WriteLine("1. Coin flip");
             Console.WriteLine("2.Admin/Manager Authentication Check");
-            Console.WriteLine("3. Code blocks and variable scope");
+            Console.WriteLine("3.Code blocks and variable scope");
 
             ConsoleKeyInfo input = Console.ReadKey(true);
 
@@ -28,18 +28,10 @@ namespace BoolsEvaluating
             while (true)
             {
                 switch(input.KeyChar)
-                {
-                    case '1':
-                        CoinClass.CoinMeth();
-                    break;
-                    case '2':
-                        AdminTask.Start();
-                    break;
-                    case '3':
-                        CodeBlockVarScopes.Start();
-                    break;
-                            
-                    
+                {   
+                    case '1': CoinClass.CoinMeth(); Console.ReadKey(); break;
+                    case '2':AdminTask.Start(); Console.ReadKey(); break;
+                    case '3': CodeBlocksVarScopes.Start(); Console.ReadKey(); break;
                 }
                         
                         
