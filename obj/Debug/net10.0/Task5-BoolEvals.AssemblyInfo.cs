@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Task5-BoolEvals")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+691bfdf2dec74d33f9b048f39f6de5380fb8f199")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+37f687cbbcdbb699032cbc445ab1b8d3107ec867")]
 [assembly: System.Reflection.AssemblyProductAttribute("Task5-BoolEvals")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Task5-BoolEvals")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
