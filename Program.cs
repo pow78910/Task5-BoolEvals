@@ -41,7 +41,7 @@ namespace BoolsEvaluating
                     case '3': CodeBlocksVarScopes.Start(); Console.ReadKey(); break;
                     case '4': SwitchCases.Start(); Console.ReadKey(); break;
                     case '5': ForLoops.Start(); Console.ReadKey(); break;
-                    case '6': IterationLoops.Start(); Console.ReadKey(); break; 
+                    case '6': DoWhileLoop.Start(); Console.ReadKey(); break; 
                 }
                         
                         
