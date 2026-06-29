@@ -3,6 +3,7 @@ using System.Diagnostics.Tracing;
 using System.Linq.Expressions;
 using System.Security;
 using System.Security.Cryptography.X509Certificates;
+using BoolsEvaluating;
 
 public class AdminTask()
 {
@@ -16,7 +17,7 @@ public class AdminTask()
     public static void Start()
     {
         Console.Clear();
-        Console.WriteLine("Please enter your role(Admin/Manager/Prod)");
+        Console.WriteLine("Please enter your role(Admin/Manager/Prod/'x + ENTER' to exit)");
         input = Console.ReadLine().ToLower();
 
         while(!(input.Contains("admin")|| input.Contains("manager") || input.Contains("prod") || input == "x"))
@@ -25,7 +26,7 @@ public class AdminTask()
             input = Console.ReadLine();
 
         }
-
+        if (input == "x"){Program.Start();} 
         permission = input.Contains("admin") ? "Admin" : "Manager/Prod"; 
 
         Console.WriteLine("Enter you permission Level (0-100)");

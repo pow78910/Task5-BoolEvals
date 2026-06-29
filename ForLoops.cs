@@ -4,22 +4,42 @@ using BoolsEvaluating;
 
 class ForLoops()
 {
+      //creates numbers array with length of 100 
+        public static double[] numbersArr = new double[100];
+        public static string[] fizzOrBuzz = new string[100];
   
+
+  //maybe add function for random number in a range e.g. 399 - 3821
+  //fizz buzz calc can be applied to all the numbers within the range
+  //will need to change the way the arrays are init, or create a new one for random. 
+  //could also just declare the array limit, user can determine the range within that range
+  //any element after would simply be blank. 
     public static void Start()
     {
         Console.Clear();
         Console.WriteLine("This is the Fizz Buzz challenge");
-
+        NumbersArr();
+        FizzBuzzCalc(numbersArr);
+        
+        
+       
         for (int x = 0; x < 100; x++)
         {
-        // pause - need another index for the final output that concats the two results from the number index and the fizz buzz index
-        // or find the way needed to just output them straight out by calling both
-        Console.WriteLine(FizzBuzzCalc(NumbersArr()));
-        }
-
-        Console.ReadKey();
         
+           Console.WriteLine($"{numbersArr[x]} - {fizzOrBuzz[x]}");  
 
+        }
+    Console.WriteLine("\nPress '1' to try again ('x' to exit)");
+
+        ConsoleKeyInfo input = Console.ReadKey(true);
+
+        switch (input.KeyChar)
+        {
+            case '1': Start(); break;
+            case 'x': Program.Start(); break;
+        }
+        
+        
 
 
         
@@ -28,10 +48,8 @@ class ForLoops()
 
     public static double [] NumbersArr()
     {
-        double[] numbersArr = new double[100];
-
         for (int i = 0; i < numbersArr.Length; i++)
-        {
+        {//gives each value with the array the value of i+1 in the loop i.e. 1 - 100
             numbersArr[i] = i + 1;
         }
 
@@ -40,8 +58,6 @@ class ForLoops()
 
     public static string[] FizzBuzzCalc(double[] numbersArr)
     {
-         string[] fizzOrBuzz = new string[100];
-
         for (int i = 0; i < numbersArr.Length; i++)
         {
             if (numbersArr[i] % 3 == 0 && numbersArr[i] % 5 != 0)

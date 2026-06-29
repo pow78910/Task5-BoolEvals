@@ -7,6 +7,7 @@ class SwitchCases()
 
     public static void Start()
     {
+        Console.Clear();
         // SKU = Stock Keeping Unit. 
         // SKU value format: <product #>-<2-letter color code>-<size code>
         string sku = "01-MN-L";
@@ -39,5 +40,19 @@ class SwitchCases()
 
         Console.WriteLine(sku);
         Console.WriteLine($"Product: {size} {color} {type}");
+
+
+          Console.WriteLine("\nPress '1' to try again ('x' to exit)");
+
+          Console.WriteLine("\n\n\nJUST EXIT FOR NOW, THIS FUNCTION SHOULD HAVE A FEATURE INCLUDED WHERE YOU CAN TYPE YOUR OWN CODE IN FOR THE OUTPUT,\nIT WILL NEED TO MAKE SURE THAT IT FOLLOW THE CONVENTION,\n DOES THIS NEEDED TO BE CODED IN USING SUBSTRING, A IN-BUILT FUNCTION OR CAN SOMETHING LIKE REGEX BE USED??? ");
+
+        ConsoleKeyInfo input = Console.ReadKey(true);
+
+        switch (input.KeyChar)
+        {
+            case '1': Start(); break;
+            case 'x': Program.Start(); break;
+        }
+
             }
 }
